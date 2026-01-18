@@ -1,0 +1,33 @@
+2026/01/18-10:10:41.333 2c48 Reusing MANIFEST C:\Users\samsung\python-projects\Project #2\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/18-10:10:41.334 2c48 Recovering log #227
+2026/01/18-10:10:41.342 2c48 Reusing old log C:\Users\samsung\python-projects\Project #2\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000227.log 
+2026/01/18-10:10:41.342 2c48 Delete type=2 #226
+2026/01/18-10:10:42.748 4948 Level-0 table #232: started
+2026/01/18-10:10:42.756 4948 Level-0 table #232: 122875 bytes OK
+2026/01/18-10:10:42.758 4948 Delete type=0 #227
+2026/01/18-10:10:42.758 b9c Manual compaction at level-0 from '\x00X\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Y\x00\x00\x00' @ 0 : 0; will stop at '\x00Y\x00\x00\x05' @ 152903 : 1
+2026/01/18-10:10:42.759 b9c Compacting 1@0 + 1@1 files
+2026/01/18-10:10:42.829 b9c Generated table #233@0: 65028 keys, 1173087 bytes
+2026/01/18-10:10:42.829 b9c Compacted 1@0 + 1@1 files => 1173087 bytes
+2026/01/18-10:10:42.830 b9c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/18-10:10:42.830 b9c Manual compaction at level-0 from '\x00Y\x00\x00\x05' @ 152903 : 1 .. '\x00Y\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/18-10:10:42.831 b9c Level-0 table #235: started
+2026/01/18-10:10:42.834 b9c Level-0 table #235: 5864 bytes OK
+2026/01/18-10:10:42.835 b9c Delete type=2 #229
+2026/01/18-10:10:42.835 b9c Delete type=0 #231
+2026/01/18-10:10:42.835 b9c Delete type=2 #232
+2026/01/18-10:10:42.836 b9c Manual compaction at level-0 from '\x00Y\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Z\x00\x00\x00' @ 0 : 0; will stop at '\x00Y\x00\x00\x05' @ 153036 : 0
+2026/01/18-10:10:42.837 b9c Compacting 1@0 + 1@1 files
+2026/01/18-10:10:42.916 b9c Generated table #236@0: 65026 keys, 1175523 bytes
+2026/01/18-10:10:42.916 b9c Compacted 1@0 + 1@1 files => 1175523 bytes
+2026/01/18-10:10:42.917 b9c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/18-10:10:42.917 b9c Delete type=2 #235
+2026/01/18-10:10:42.918 b9c Manual compaction at level-0 from '\x00Y\x00\x00\x05' @ 153036 : 0 .. '\x00Z\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/18-10:10:48.483 4948 Level-0 table #238: started
+2026/01/18-10:10:48.521 4948 Level-0 table #238: 1308454 bytes OK
+2026/01/18-10:10:48.522 4948 Delete type=2 #233
+2026/01/18-10:10:48.523 4948 Delete type=0 #234
+2026/01/18-10:10:48.529 2c48 Compacting 1@0 + 1@1 files
+2026/01/18-10:10:48.636 2c48 Generated table #239@0: 80332 keys, 2227782 bytes
+2026/01/18-10:10:48.636 2c48 Compacted 1@0 + 1@1 files => 2227782 bytes
+2026/01/18-10:10:48.637 2c48 compacted to: files[ 0 1 1 0 0 0 0 ]

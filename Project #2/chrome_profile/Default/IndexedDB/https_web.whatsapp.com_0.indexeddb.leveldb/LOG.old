@@ -1,0 +1,25 @@
+2026/01/18-10:09:08.906 216c Reusing MANIFEST C:\Users\samsung\python-projects\Project #2\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/18-10:09:08.906 216c Recovering log #220
+2026/01/18-10:09:08.919 216c Reusing old log C:\Users\samsung\python-projects\Project #2\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000220.log 
+2026/01/18-10:09:08.919 216c Delete type=2 #219
+2026/01/18-10:09:10.672 426c Level-0 table #225: started
+2026/01/18-10:09:10.683 426c Level-0 table #225: 241211 bytes OK
+2026/01/18-10:09:10.685 426c Delete type=0 #220
+2026/01/18-10:09:10.686 426c Manual compaction at level-0 from '\x00V\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00W\x00\x00\x00' @ 0 : 0; will stop at '\x00W\x00\x00\x05' @ 146813 : 1
+2026/01/18-10:09:10.686 426c Compacting 1@0 + 1@1 files
+2026/01/18-10:09:10.749 426c Generated table #226@0: 62077 keys, 1110634 bytes
+2026/01/18-10:09:10.749 426c Compacted 1@0 + 1@1 files => 1110634 bytes
+2026/01/18-10:09:10.750 426c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/18-10:09:10.751 426c Manual compaction at level-0 from '\x00W\x00\x00\x05' @ 146813 : 1 .. '\x00W\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/18-10:09:10.751 426c Level-0 table #228: started
+2026/01/18-10:09:10.754 426c Level-0 table #228: 5860 bytes OK
+2026/01/18-10:09:10.755 426c Delete type=0 #224
+2026/01/18-10:09:10.756 426c Manual compaction at level-0 from '\x00W\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00X\x00\x00\x00' @ 0 : 0; will stop at '\x00W\x00\x00\x05' @ 146946 : 0
+2026/01/18-10:09:10.756 426c Compacting 1@0 + 1@1 files
+2026/01/18-10:09:10.833 426c Generated table #229@0: 62127 keys, 1113133 bytes
+2026/01/18-10:09:10.833 426c Compacted 1@0 + 1@1 files => 1113133 bytes
+2026/01/18-10:09:10.834 426c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/18-10:09:10.834 426c Delete type=2 #222
+2026/01/18-10:09:10.835 426c Delete type=2 #225
+2026/01/18-10:09:10.835 426c Delete type=2 #228
+2026/01/18-10:09:10.836 426c Manual compaction at level-0 from '\x00W\x00\x00\x05' @ 146946 : 0 .. '\x00X\x00\x00\x00' @ 0 : 0; will stop at (end)
