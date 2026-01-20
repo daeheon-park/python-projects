@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "date": "2026-01-20",
+    "name": "coffee",
+    "category": "food",
+    "cost": 8000,
+    "status": true
+  },
+  {
+    "id": 2,
+    "date": "2026-01-20",
+    "name": "underwear",
+    "category": "clothes",
+    "cost": 12000,
+    "status": true
+  },
+  {
+    "id": 3,
+    "date": "2026-01-20",
+    "name": "lectures",
+    "category": "general",
+    "cost": 17000,
+    "status": true
+  },
+  {
+    "id": 4,
+    "date": "2026-01-20",
+    "name": "game",
+    "category": "hobby",
+    "cost": 48000,
+    "status": true
+  }
+]
