@@ -1,1 +1,1 @@
-Start learning python by creating projects
+Started learning python by creating projects
