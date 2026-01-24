@@ -9,19 +9,58 @@
 
 import requests
 
-API_KEY = "d350ff479977493d4d4624d2dff8ab03"
-city = "Seoul"
-
+API_KEY = "GO openWeather"
 url = "https://api.openweathermap.org/data/2.5/weather"
-params = {
+
+#print(response.status_code)
+#print(response.text)  # raw JSON string
+
+def show_weather(city,data):
+    # str -> None
+    print(f"{city}'s weather information: ")
+    print(f"""temperature : {data["main"]['temp']:.1f}
+    feels_like : {data["main"]["feels_like"]:.1f}
+    humidity : {data["main"]["humidity"]:.1f}
+    wind : {data["wind"]["speed"]:.1f}
+""")
+
+while True:
+    city = input("Type city name: ").strip().lower()
+    params = {
     "q": city,
     "appid": API_KEY,
     "units": "metric",   # Celsius
     "lang": "kr"         # Korean descriptions (optional)
-}
+    }
 
-r = requests.get(url, params=params)
-print(r.status_code)
-print(r.text)  # raw JSON string
+    try: 
+        response = requests.get(url, params=params)
+    except requests.exceptions.RequestException: 
+        print("Network error.")
+    else:
+        if response.status_code == 200:
+            data = response.json()
+        elif response.status_code == 404:
+            print("City Not Found")
+            continue
+        elif response.status_code == 401:
+            print("API Key Problem.")
+        else:
+            print("Other error.")
 
+    show_weather(city,data)
+    exit_all = False
 
+    while True:
+        more_weather = input("Would you like to check another city? Y/N: ").strip().lower()
+        if more_weather == 'y':
+            break
+        elif more_weather == 'n':
+            exit_all = True
+            break
+        else:
+            print("Please type Y/N.")
+            continue
+    
+    if exit_all == True:
+        break
